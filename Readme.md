@@ -50,3 +50,6 @@ ludwig train \
         ludwig visualize \
         --visualization learning_curves \
         --training_statistics results/experiment_run_5/training_statistics.json  
+        
+
+![visualization](https://github.com/anjandebnath/uber_ludwig/blob/master/raw_img/123.png)     
