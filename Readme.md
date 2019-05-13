@@ -41,7 +41,7 @@ ludwig train \
         
       ludwig predict \
       --data_csv reuters-allcats.csv \
-      --model_path results/experiment_run_0/model/
+      --model_path results/experiment_run_5/model/
       
       
       
@@ -49,4 +49,4 @@ ludwig train \
      
         ludwig visualize \
         --visualization learning_curves \
-        --training_statistics results/experiment_run_0/description.json  
+        --training_statistics results/experiment_run_5/training_statistics.json  
