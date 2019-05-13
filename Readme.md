@@ -24,9 +24,6 @@ This [link](https://towardsdatascience.com/introducing-ubers-ludwig-5bd275a73eda
 - Install ludwig on your machine.
 
 
-ludwig train \
---data_csv reuters-allcats.csv 
---model_definition "{input_features: [{name: text, type: text, encoder: parallel_cnn, level: word}], output_features: [{name: class, type: category}]}"
 
 **we can train a deep learning model using the following command:**
 
